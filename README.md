@@ -4,7 +4,7 @@ SD library for (at least) ESP32 allowing you to specify whatever pins you want f
 
 ## Purpose
 
-Use this library, instead of "SD.h" in your ESP32 sketchm when you need to hook your SD car up to different SPI pins (Like how the ESP32-Cam boards do)
+Use this library, instead of "SD.h" in your ESP32 sketch when you need to hook your SD card up to different SPI pins (Like how the ESP32-Cam boards do)
 
 ## Usage
 
@@ -42,6 +42,6 @@ Put the "SDcnd.h" and "SDcnd.cpp" files into your sketch folder, and:-
 
 ## Note
 
-This is a clone of the ESP32 SD.h libray, simply adjusted to allow you to pass through your necessary pins into their SPI constructor.
+This is a clone of the ESP32 SD.h library, simply adjusted to allow you to pass through your necessary pins into their SPI constructor.
 
 
